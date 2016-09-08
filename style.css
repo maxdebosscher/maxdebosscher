@@ -1,0 +1,217 @@
+@font-face{
+	font-family: "cinzelregular";
+	src: url("Cinzel-Regular.otf");
+}
+
+@font-face{
+	font-family: "AutoRadioGraphic";
+	src: url("AutoRadioGraphic.ttf");
+}
+
+@font-face{
+	font-family: "timeless";
+	src: url("Timeless.ttf");
+}
+
+html
+{
+	height: 100%;
+	margin: 0 !important;
+}
+
+body
+{
+	height: 100%;
+	margin: 0 !important;
+	background-color: white;
+	background-image: url("background..jpeg");
+}
+
+/* ----------------------------------------- */
+/* ------------Header/Navigation--------------- */
+/* ----------------------------------------- */
+
+header
+{
+	margin: auto;
+	width: 480px;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+h1
+{
+	text-align: center;
+	font-family: AutoRadioGraphic;
+	font-size: 40px;
+	color: black;
+}
+
+.navigation
+{
+	list-style-type: none;
+	text-align: center;
+	margin-top: -40px;
+	padding: 0;
+}
+
+.navli{
+	display: inline-block;
+	padding: 12px 16px;
+}
+
+.inactive
+{
+	font-family: cinzelregular;
+	font-size: 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+.active
+{
+	font-family: cinzelregular;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+.inactive:hover
+{
+	color: black;
+}
+
+/* ------------------------------- */
+/* ------------Content--------------- */
+/* ------------------------------- */
+
+main
+{
+	width: 480px;
+	margin: auto;
+	padding: 5px 30px;
+	background-color: white;
+	outline: 1px solid grey;
+	overflow: hidden;
+}
+
+h2
+{
+	font-family: AutoRadioGraphic;
+	font-size: 30px;
+}
+
+p, .noListStyle, dt, dd
+{
+	font-family: timeless;
+	font-size: 17px;
+	position: relative;
+	bottom: 15px;
+}
+
+.textCenter
+{
+	text-align: center;
+}
+
+.noListStyle
+{
+	list-style-type: none;
+}
+
+.skillListContent
+{
+	display: inline-block;
+	padding: 5px 45px;
+	width: 45px;
+	outline: 1px solid lightgrey;
+	background-color: rgba(0,0,0,0.06);
+}
+
+.workExperience
+{
+	width: 50%;
+	float: left;
+}
+
+.certificates
+{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.certificatesListContent
+{
+	display: inline-block;
+	padding: 5px 25px;
+	margin-bottom: 5px;
+	margin-left: -32px;
+	width: 80px;
+	outline: 1px solid lightgrey;
+	background-color: rgba(0,0,0,0.05);
+}
+
+form
+{
+	background-color: rgba(0,0,0,0.05);
+	outline: 1px solid lightgrey;
+	padding: 30px;
+}
+
+.formEntry
+{
+	display: inline-block;
+	width: 80px;
+	padding: 2px 5px;
+}
+
+.formEntryMessage
+{
+	padding: 2px 5px;
+}
+
+input
+{
+	width: 40%;
+	margin-left: 20px;
+}
+
+.message
+{
+	width: 100%;
+	max-width: 100%;
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 0;
+}
+
+form, input
+{
+	font-family: timeless;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+.overlayHome
+{
+	background-color: rgba(255,0,0,0.05);
+	min-height: 100%;
+}
+
+.overlayWorks
+{
+	background-color: rgba(0,255,0,0.05);
+	min-height: 100%;
+}
+
+.overlayContact
+{
+	background-color: rgba(0,0,255,0.05);
+	min-height: 100%;
+}
